@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package2"
   DTS:PackageType="5"
-  DTS:VersionBuild="22"
-  DTS:VersionGUID="{0E39DE37-CF9D-4A28-BA72-39015D2D854D}">
+  DTS:VersionBuild="23"
+  DTS:VersionGUID="{06E30AAB-6429-4D23-AF5B-30CE407BD9D7}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -760,9 +760,9 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="153.333333333334,42.6666666666667"
+          Size="150.4,41.6"
           Id="Package\Data Flow Task"
-          TopLeft="5.5,5.5" />
+          TopLeft="5.49999999999999,4.63333333936002" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -770,19 +770,23 @@
     design-time-name="Package\Data Flow Task">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="150.666666666667,41.3333333333334"
-          Id="Package\Data Flow Task\Flat File Source"
-          TopLeft="62.4999998882413,16.2105267965892" />
+          Size="121.6,42.4"
+          Id="Package\Data Flow Task\Multicast"
+          TopLeft="89.5277740214435,348.365493311428" />
         <NodeLayout
-          Size="156,42.6666666666667"
+          Size="165.6,42.4"
+          Id="Package\Data Flow Task\Derived Column 1"
+          TopLeft="62.3749987985939,243.499997716201" />
+        <NodeLayout
+          Size="156,42.4"
           Id="Package\Data Flow Task\Derived Column"
           TopLeft="62.3749974574895,145.078945835872" />
         <NodeLayout
-          Size="165.333333333334,42.6666666666667"
-          Id="Package\Data Flow Task\Derived Column 1"
-          TopLeft="62.3749987985939,243.499997716201" />
+          Size="150.4,41.6"
+          Id="Package\Data Flow Task\Flat File Source"
+          TopLeft="62.4999998882413,16.2105267965892" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Flat File Source Output]"
           TopLeft="139.104165339532,57.5438601299226">
@@ -797,6 +801,28 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,80.0350857059492" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Derived Column Output1]"
+          TopLeft="147.618053076685,286.166664382868">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,62.1988289285603"
+              Start="0,0"
+              End="0,54.6988289285603">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,54.6988289285603" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -825,34 +851,6 @@
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="121.333333333334,42.6666666666667"
-          Id="Package\Data Flow Task\Multicast"
-          TopLeft="89.5277740214435,348.365493311428" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Derived Column Output1]"
-          TopLeft="147.618053076685,286.166664382868">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,62.1988289285603"
-              Start="0,0"
-              End="0,54.6988289285603">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,54.6988289285603" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-8,19.3494144642801,16,16"
-              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
