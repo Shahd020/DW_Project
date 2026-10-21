@@ -218,3 +218,34 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# =========================
+# Data Mining & Datasets
+# =========================
+*.csv
+*.xlsx
+*.zip
+*.bak
+*.mdf
+*.ldf
+
+# =========================
+# Visual Studio & SSIS
+# =========================
+.vs/
+*.user
+*.suo
+*.dtproj.user
+bin/
+obj/
+
+# =========================
+# Python & Jupyter
+# =========================
+__pycache__/
+.ipynb_checkpoints/
+venv/
+.env
+
+
