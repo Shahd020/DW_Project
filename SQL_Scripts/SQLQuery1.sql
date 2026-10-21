@@ -33,3 +33,14 @@ CREATE TABLE DimShow (
     Duration NVARCHAR(100)
 
 );
+
+
+
+CREATE TABLE FactNetflix (
+
+    FactKey INT IDENTITY(1,1) PRIMARY KEY,
+    ShowKey INT FOREIGN KEY REFERENCES DimShow(ShowKey),
+    Datekey INT FOREIGN KEY REFERENCES DimDate(Datekey),
+    GenreKey INT FOREIGN KEY REFERENCES DimGenre(GenreKey)
+
+);
