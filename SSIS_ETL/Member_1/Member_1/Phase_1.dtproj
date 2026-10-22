@@ -15,7 +15,7 @@
       <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{8d89ce0a-d312-4b7a-a065-2064faf0bdaa}</SSIS:Property>
-          <SSIS:Property SSIS:Name="Name">Member_1</SSIS:Property>
+          <SSIS:Property SSIS:Name="Name">Phase_1</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">COOKIES-DESKTOP</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAABHZVO7dF06u4nHLCrQgqAAAAAACAAAAAAAQZgAAAAEAACAAAACaX6zedvFNIbe5DJQChJAVlgbDXDSK61iAOD/GzTSe7wAAAAAOgAAAAAIAACAAAABTkGCXZlAHTorrZQjyOeBkliKAdMqo6YPc/4VZUQXIOJAAAADrk4BdRZIZ6EokVwleX7sPs00QdUdzquBleYRUxzqTiIwyEV9qwSZPXMfWsP5Hns6v37dJdHuLIgH1rpCUMH9J7/5HOxd4WkAGOjzPmTEAwu0DWkmcm1VPUTUZg9zKlNu9vshO2hqkZP8XMViI3svHs8SBaJP7FkoWV+C5imiseARBqRYua4VNf+gXoyH1zlpAAAAA4+B/qgU36SlPzvunolpG9OcqaQA5AR24dFtAbrBWKL5PozeeHD8j4qxunqDJiVnmNNRD+ciulFtKPmweMgXS+w==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAABHZVO7dF06u4nHLCrQgqAAAAAACAAAAAAAQZgAAAAEAACAAAACqUVrFQbBXAAPYIg1gy1IDMG9Q1BPXog59BR0MzfnmiwAAAAAOgAAAAAIAACAAAAA3nIZDloCi1RkzoTekzrRmIfzT3m+Li4xm8s24uo2Z6JAAAAAZRsVH/ccmZR7AJCuLi9g+1TisJspny8NQTZSTb0eASaIpYdGwowWucWUTHzhifWSOZv6f/eLgi2U0lZ6046BetJkDJag0FKdnz3rssiw/sK5I1+G7fEunpmKwV1jA/ydHeQ6vSrn66xqI6Pf+5f7lKTAs/1TVQl48kYWN7d2D68uCJbLYN7uIcFoVD2ZBe5VAAAAA4JZ3DyBZoIJD2EUI/T6/JKkrj4vl/TmYbb3vhKjxOq8CN3B4hf/NGZOJUfFPrIz88fSoGlP8jzDU9A5g7mfiXw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
