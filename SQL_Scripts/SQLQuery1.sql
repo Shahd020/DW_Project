@@ -44,3 +44,12 @@ CREATE TABLE FactNetflix (
     GenreKey INT FOREIGN KEY REFERENCES DimGenre(GenreKey)
 
 );
+
+-- 1. Disable foreign key checks across the database
+EXEC sp_MSforeachtable 'ALTER TABLE ? NOCHECK CONSTRAINT ALL';
+
+-- 2. Use DELETE instead of TRUNCATE to clear the table data
+DELETE FROM DimGenre;
+
+-- 3. Re-enable all foreign key constraints
+EXEC sp_MSforeachtable 'ALTER TABLE ? CHECK CONSTRAINT ALL';
