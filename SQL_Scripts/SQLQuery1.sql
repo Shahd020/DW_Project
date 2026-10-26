@@ -53,3 +53,10 @@ DELETE FROM DimGenre;
 
 -- 3. Re-enable all foreign key constraints
 EXEC sp_MSforeachtable 'ALTER TABLE ? CHECK CONSTRAINT ALL';
+
+
+ALTER TABLE [dbo].[DimShow] ALTER COLUMN [Show_Id] NVARCHAR(4000);
+ALTER TABLE [dbo].[DimShow] ALTER COLUMN [Category] NVARCHAR(4000);
+ALTER TABLE [dbo].[DimShow] ALTER COLUMN [Rating] NVARCHAR(4000);
+ALTER TABLE [dbo].[DimShow] ALTER COLUMN [Duration] NVARCHAR(4000);
+ALTER TABLE [dbo].[DimShow] ALTER COLUMN [Title] NVARCHAR(4000);
